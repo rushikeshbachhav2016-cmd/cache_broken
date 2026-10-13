@@ -1,0 +1,22 @@
+name: cache_broken
+description: Notes app with a local SQLite cache. Six tickets open, one is data loss.
+publish_to: none
+version: 2.2.0+220
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.3
+  path: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  sqflite_common_ffi: ^2.3.3
+
+flutter:
+  uses-material-design: true

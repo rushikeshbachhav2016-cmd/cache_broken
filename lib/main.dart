@@ -1,0 +1,16 @@
+import 'package:flutter/material.dart';
+
+import 'ui/notes_page.dart';
+
+void main() => runApp(const NotesApp());
+
+class NotesApp extends StatelessWidget {
+  const NotesApp({super.key});
+
+  @override
+  Widget build(BuildContext context) => MaterialApp(
+        title: 'Notes',
+        theme: ThemeData(useMaterial3: true),
+        home: const NotesPage(),
+      );
+}
